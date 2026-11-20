@@ -1,2 +1,10 @@
 dev/
 test/
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+cache/
+out_*/
+report*.json
