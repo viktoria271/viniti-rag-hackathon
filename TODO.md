@@ -40,13 +40,13 @@
 ---
 
 ## Шаг 3. Скрипт оценки качества (`scripts/evaluate.py`) и инструкция для ПК тиммейта
-- [ ] **3.1.** Напиши лёгкий кроссплатформенный скрипт `scripts/evaluate.py` (без `pandas`), который сравнивает папку с результатами (`out_dev/`) с эталоном `dev_gold/` и выводит в консоль отчёт:
+- [x] **3.1.** Напиши лёгкий кроссплатформенный скрипт `scripts/evaluate.py` (без `pandas`), который сравнивает папку с результатами (`out_dev/`) с эталоном `dev_gold/` и выводит в консоль отчёт:
   - точность отбора статей в `publications.csv` (включённые vs исключённые);
   - сравнение количества строк по каждой из 7 таблиц (`out_dev` vs `dev_gold`);
   - Precision / Recall / F1 по датасетам, моделям и числовым значениям метрик;
   - топ-5 конкретных расхождений с эталоном.
-- [ ] **3.2.** Напиши в `README.md` короткую пошаговую инструкцию для тиммейта на ПК: как сделать `git pull`, создать `.env`, прогнать сначала `D001` и `D002`, затем весь `dev/`, запустить `check_submission.py` и `scripts/evaluate.py`.
-- [ ] **Чекпоинт 3:** Отметь `[x]` в `TODO.md`, сделай `git add . && git commit -m "feat(eval): add dev_gold evaluator and quickstart instructions for runner PC" && git push`.
+- [x] **3.2.** Напиши в `README.md` короткую пошаговую инструкцию для тиммейта на ПК: как сделать `git pull`, создать `.env`, прогнать сначала `D001` и `D002`, затем весь `dev/`, запустить `check_submission.py` и `scripts/evaluate.py`.
+- [x] **Чекпоинт 3:** Отметь `[x]` в `TODO.md`, сделай `git add . && git commit -m "feat(eval): add dev_gold evaluator and quickstart instructions for runner PC" && git push`.
 
 ---
 

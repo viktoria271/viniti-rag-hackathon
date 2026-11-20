@@ -26,3 +26,9 @@
 - NEVER install heavy libraries (e.g., `pandas`, `torch`, `tensorflow`, `scipy`, local OCR engines like `tesseract`/`easyocr`, or heavy PDF/image suites). Use Python stdlib (`csv`, `json`, `re`, `sqlite3`) and lightweight parsers only.
 - Process files strictly ONE by one in streaming/sequential mode; never load the full dataset or multiple PDFs into memory at once.
 - Immediately delete any temporary files, caches, and intermediate artifacts after processing.
+
+## Server Hardware & Resource Limits (STRICT)
+- The server has ONLY 1 GB RAM and 10 GB disk space.
+- NEVER install heavy libraries (e.g., `pandas`, `torch`, `tensorflow`, `scipy`, local OCR engines like `tesseract`/`easyocr`, or heavy PDF/image suites). Use Python stdlib (`csv`, `json`, `re`, `sqlite3`) and lightweight parsers only.
+- Process files strictly ONE by one in streaming/sequential mode; never load the full dataset or multiple PDFs into memory at once.
+- Immediately delete any temporary files, caches, and intermediate artifacts after processing.
