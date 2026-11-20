@@ -35,7 +35,7 @@
   - точная привязка `source_page` (с 1), `source_section`, `source_table` / `source_figure` и дословной цитаты `source_fragment`.
 - `plugins/rag/exporter.py` — сборка всех 7 CSV из `cache/` на встроенном модуле `csv` + детерминированный валидатор правил (проверка шкал `[0, 1]` vs `[0, 100%]`, наличие `k` у метрик `@k`, различение `%` и `percentage_points` в дельтах, запись замечаний без удаления исходных строк).
 - `main.py` — кроссплатформенная CLI-точка входа (`--input`, `--output`, `--only`, `--force`, `--rebuild-csv-only`).
-- [ ] **Чекпоинт 2:** Проверь синтаксис (`python -m py_compile main.py core/*.py plugins/rag/*.py`), отметь `[x]` в `TODO.md`, сделай `git add . && git commit -m "feat(core,rag): implement cross-platform LLM extraction pipeline and CSV exporter" && git push`.
+- [x] **Чекпоинт 2:** Проверь синтаксис (`python -m py_compile main.py core/*.py plugins/rag/*.py`), отметь `[x]` в `TODO.md`, сделай `git add . && git commit -m "feat(core,rag): implement cross-platform LLM extraction pipeline and CSV exporter" && git push`.
 
 ---
 
